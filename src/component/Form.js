@@ -35,7 +35,7 @@ const Form = ({ipaddres}) => {
         console.log(formData)
         e.preventDefault();
         try {
-            const response = await fetch(`http://${ipaddres}/getMessage`, {
+            const response = await fetch(`https://${ipaddres}/getMessage`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded',
