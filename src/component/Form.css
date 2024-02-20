@@ -1,0 +1,61 @@
+body {
+  height: 100%;
+  margin: 0;
+  /* background-color: black; */
+  color: white;
+background-size: 10px 10px;
+}
+#container2 input{
+  color: #020303;
+}
+#con
+{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+#container{
+  border: solid red;
+  width: 40%;
+  margin: 0;
+}
+
+#container div {
+  border: 2px solid #020303;
+  border-radius: 20px; 
+  padding: 20px;
+  max-width: 600px; /*Adjust the max-width as needed */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#container2 label,select {
+  display: block;
+  margin-bottom: 5px;
+}
+#container2 input,select{border-radius: 20px; }
+#container2 input, button,select {
+  border: solid red;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+select{
+  color: black;
+}
+option{
+  color: aliceblue;
+  background: black;
+}
+
+button {
+  margin: auto;
+  background-color: red; /* Button background color */
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 40%;
+  cursor: pointer;
+}

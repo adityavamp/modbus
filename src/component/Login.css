@@ -1,0 +1,33 @@
+#container14
+{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+}
+#container14 button{
+    width: 52%;
+}
+#container15{
+    border: solid red;
+    padding: 20px;
+    width: 29%;
+}
+#container15 input{
+    color: black;
+}
+#errorMessage{
+    text-align: center;
+    color:red;
+    padding: 20px;
+}
+#login_regis
+{
+    display: flex;
+
+}
+#login_regis button{
+    margin: 20px;
+}

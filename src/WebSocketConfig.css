@@ -1,0 +1,18 @@
+.config-container {
+    border: solid red;
+    width:50%;
+    margin: 50px;
+    border-radius: 20px;
+}
+.config-container div,h1{
+    margin: 30px;
+}
+#webform input {
+    display: block;
+    border-radius: 20px;
+    border: solid red;
+    width: 50%;
+    padding: 10px;
+    color: red;
+}
+  

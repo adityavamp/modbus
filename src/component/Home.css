@@ -1,0 +1,59 @@
+ #tempcontainer1{
+    display: flex;
+    justify-content: center;
+}
+#tempcontainer1 div{
+    margin: 30px;
+}
+#allcontainer .name-value-tag{
+    margin: 30px;
+    flex:30%;
+}
+#tempcontainer{
+    display: flex;
+    flex:50%;
+    flex-direction: column;
+
+}
+#tempbarvalue{
+    flex: 50%;
+    margin: 25px;
+}
+#tempbarcontainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+}
+#tempbarcontainer canvas
+{
+    width: 100px;
+    height: 100px;
+}
+#allcontainer
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#containerhome
+{
+    display: flex;
+}
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+  }
+  
+  .loading-message {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
