@@ -35,7 +35,7 @@ const Home = ({temprealvalue,humrealvalue,ipaddres}) => {
   const fetchData = async () => {
     console.log("called");
     try {
-      const response = await fetch(`http://${ipaddres}/getMessage`, {
+      const response = await fetch(`https://${ipaddres}/getMessage`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
