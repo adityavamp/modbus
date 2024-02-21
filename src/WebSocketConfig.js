@@ -11,7 +11,7 @@ const WebSocketConfig = ({ setSocketUrl, isConnecting,setaddres }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const socketUrl = `wss://${ipAddress}:81`;
+    const socketUrl = `ws://${ipAddress}:81`;
     setSocketUrl(socketUrl);
     setaddres(ipAddress);
   };
