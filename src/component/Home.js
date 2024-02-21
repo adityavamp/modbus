@@ -37,6 +37,7 @@ const Home = ({temprealvalue,humrealvalue,ipaddres}) => {
     try {
       const response = await fetch(`https://${ipaddres}/getMessage`, {
         method: 'GET',
+        mode: 'no-cors', 
         headers: {
           'Content-Type': 'application/json',
         },
